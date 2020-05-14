@@ -1,0 +1,11 @@
+The first step of testing whether a number is prime is that a composite number must be divided by other numbers.
+Therefore we can determine that for a and b not equal to 1 and a <= b, a composite number m must have the identity: m = a*b
+Furthermore, we can deduct that a <= sqrt(m) and b >= sqrt(m).
+Because of that, we konw that any number between the range of the next integer bigger than sqrt(m) to m will not be needed (next line)
+for the test because if a number m were to be composite, then there must exist an integer divisor not equal to 1 that is smaller or (next line)
+equal to the square root of m.
+Therefore using that, I can improve the efficiency of the program from O(n) to O(n^(1/2)) given that a number is prime.
+An example:
+  Given a prime number of magnitude 10^6, we only need to test the number from 2 to 10^3, way more efficient than the traditional method (next line)
+  of testing to the magnitude of 10^6.
+This can improve the efficiency of the program since it asks to find the 10001st prime, which is approximately in the magnitude of 10^5 with an estimate of 1 prime per 10 numbers on average.
