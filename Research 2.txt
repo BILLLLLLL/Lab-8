@@ -1,0 +1,8 @@
+The next step of the program is to improve on that model by making it more efficient for prime counting function.
+
+The fundamental theorem of arithmetic states that every single composite number is a product of powers of prime numbers.
+With that, I can improve the algorithm further by creating a list of prime numbers and test every single number based on (next line)
+the list of prime numbers with the method stated in Research 1.
+We can start with [2, 3, 5, 7, 11, 13] and set the prime counter to 6 since 13 is the sixth prime number.
+Then for every single odd number (even number is not necessary since all even numbers except 2 are composite), we can use the (next line)
+list to find out what numbers are prime, append them to the list, and simply check the 10001st element of the list.
