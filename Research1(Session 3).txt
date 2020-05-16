@@ -1,3 +1,7 @@
+Bill Zheng
+May 11, 2020
+This is dedicated for research and compiling all of the information available.
+
 The first step of testing whether a number is prime is that a composite number must be divided by other numbers.
 Therefore we can determine that for a and b not equal to 1 and a <= b, a composite number m must have the identity: m = a*b
 Furthermore, we can deduct that a <= sqrt(m) and b >= sqrt(m).
