@@ -8,6 +8,8 @@ Progress Work Session 1:
 In this piece of code, I tried to create a isprime function and a nthprime function. I have been successful in terms of analyzing the specific roles of each function. 
 However, I think there are still difficulties in terms of putting both of the functions together. One of the biggest errors are that sometimes an odd square would 
 result in a return of True. I will try to add print statements to check where it goes wrong. The next step would be to integrate both of the functions together.
+
+The isprime function identifies whether a number is prime, and the prime indexing function determine what is the nth prime number.
 """
 
 from math import *
