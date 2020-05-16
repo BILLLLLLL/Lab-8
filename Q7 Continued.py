@@ -1,3 +1,12 @@
+#Bill Zheng
+#May 12, 2020
+
+"""
+This is an attempt to integrate the isprime function with the prime counter function. The explanations are below on how this function will work.
+One of the biggest problems is that the code is buggy. I have ran the code through python tutor, and I am thinking to make any changes.
+However, I do hope that the structure of the code stays the same as my research have suggested that this is the most efficient way of doing it.
+"""
+
 def primecounter(k):
   #this function is set to find out what is the kth prime
 	primelist = [2, 3, 5, 7, 11, 13]
