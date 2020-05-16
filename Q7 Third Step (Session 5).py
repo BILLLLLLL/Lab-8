@@ -1,4 +1,14 @@
+#Bill Zheng
+#May 13, 2020
+
 from math import sqrt
+
+"""
+Overall, this code solves the issues of unable to run throughout the code. However the code itself is still not complete as there are still major semantic errors.
+One of the biggest errors are that the list adds all odd numbers except when they are an odd number to an odd number power (other than 1).
+This code did not run as fast as I wanted to, having taken several seconds for a k value of 27. It is possible that I will return to the separate function
+configuration to finalize my code.
+"""
 
 def primecounter(k):
     primelist = [2, 3, 5, 7, 11, 13]
