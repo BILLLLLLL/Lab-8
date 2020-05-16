@@ -1,3 +1,6 @@
+Bill Zheng
+May 12, 2020
+
 The next step of the program is to improve on that model by making it more efficient for prime counting function.
 
 The fundamental theorem of arithmetic states that every single composite number is a product of powers of prime numbers.
